@@ -1,0 +1,97 @@
+body {
+  background-image: url("immagini/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header{
+  font-family: sans-serif;
+}
+
+body p{
+  font-size: 16px;
+}
+
+#logo{
+  width: 30%;
+  height: 10%;
+  padding: 0 30% 0 35%;
+  display: flex;
+  position: relative;
+}
+
+
+.monopattino{
+  color: white
+}
+
+.title{
+  color: lime;
+  text-align: center;
+  position: relative;
+
+}
+
+.lime-header{
+  padding: 0 20% 0 30%;
+  height: 45px;
+  background-color: lime;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+}
+
+.bottoni{
+  position: relative;
+  padding: 1px 5% 1px 5%;
+  margin: 1%;
+}
+
+/* Ogni colore rappresenta un monopattino */
+.orange{
+  background-color: #fa0;
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 0 0 5%;
+  position: relative;
+
+}
+
+.green{
+  background-color: #27aa27;
+  width: 30%;
+  height:30px;
+  border-radius: 5px;
+  display: flex;
+  padding: 0 0 0 30%;
+  position: relative;
+}
+
+.red{
+  background-color: #ce4336;
+  width: 10%;
+  height:30px;
+  border-radius: 5px;
+  padding: 0 0 0 15%;
+  position: relative;
+}
+
+/* il box rappresenta il quadrato nero trasparente */
+.box{
+  margin: 0px auto;
+  width: 50%;
+  padding: 4%;
+  position: absolute;
+  max-width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
